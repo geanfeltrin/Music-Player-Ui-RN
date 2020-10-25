@@ -37,7 +37,7 @@ The application layout is available on Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="music-ui" title="#Music-ui" src="./assets/app.png" width="400px" height="550px"/> 
+  <img alt="music-ui" title="#Music-ui" src="./assets/app.png" width="300px" /> 
 </p>
 
 ---
