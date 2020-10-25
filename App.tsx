@@ -1,14 +1,22 @@
+/* eslint-disable global-require */
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View } from 'react-native';
+import { useFonts } from 'expo-font';
 import Home from './src/views/Home';
 
 const App: React.FC = () => {
+  const [loaded] = useFonts({
+    SFProDisplay: require('./assets/fonts/SFProDisplay.ttf'),
+  });
+
+  if (!loaded) {
+    return null;
+  }
   return (
-    <View>
+    <>
       <StatusBar />
       <Home />
-    </View>
+    </>
   );
 };
 
