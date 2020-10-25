@@ -17,8 +17,6 @@
 
 📱 This applications is a simple music-player ui, get more information on figma url.
 
-### 💡 This project is just a prototype, the project that went into production is a private github. 😎
-
 ## ⚙️ Features
 
 - [x] Controlls
@@ -39,8 +37,7 @@ The application layout is available on Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="AppEducaçãoADistancia" title="#AppEducaçãoADistancia" src=".assets/appImage.png" width="200px" style="border: 1px solid black;"/>
- 
+  <img alt="music-ui" title="#Music-ui" src="./assets/app.png" /> 
 </p>
 
 ---
@@ -61,10 +58,10 @@ In addition, it is good to have an editor to work with the code like [VSCode](ht
 ```bash
 
 # Clone this repository
-$ git clone https://github.com/geanfeltrin/music-player-ui.git
+$ git clone https://github.com/geanfeltrin/music-player-ui-rn.git
 
 # Access the project folder cmd/terminal
-$ cd music-player-ui
+$ cd music-player-ui-rn
 
 # Install the dependencies
 $ yarn or npm install
